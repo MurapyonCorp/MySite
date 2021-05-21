@@ -9,3 +9,18 @@ header {
   height: 70px;
   background-color: #ec715f;
 }
+
+.menu-var {
+  display: flex;
+  width: 1024px;
+  height: 70px;
+}
+
+img.header.logo {
+  height: 70px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
