@@ -154,3 +154,93 @@ ul {
   background-position: center;
   background-size: cover;
 }
+
+.feature {
+  height: auto;
+  color: #000000;
+  text-align: center;
+}
+
+.f-letter-box {
+  width: 980px;
+  height: auto;
+  margin: auto;
+}
+
+.strength-box {
+  width: 980px;
+  height: auto;
+  margin: auto;
+  padding-bottom: 90px;
+  display: flex;
+}
+
+.strength1 {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.f-name {
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+.fas {
+  font-size: 60px;
+}
+
+.strength2 {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.strength3 {
+  width: 320px;
+  height: auto;
+}
+
+.pro-letter-box {
+  width: 1024px;
+  height: auto;
+  margin: auto;
+}
+
+.profile {
+  width: 1024px;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+
+.pro-image {
+  width: 250px;
+  height: 250px;
+  background-image: url(img/my-icon.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.introduction {
+  width: 512px;
+  height: 300px;
+}
+
+.name {
+  font-size: 20px;
+  text-align: initial;
+  padding-bottom: 5px;
+}
+
+.pro-text {
+  text-align: initial;
+}
+
+.skill {
+  font-size: 20px;
+  text-align: initial;
+  padding: 20px 0 5px;
+}
