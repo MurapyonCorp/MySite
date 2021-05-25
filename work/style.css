@@ -212,6 +212,7 @@ ul {
   height: auto;
   margin: auto;
   display: flex;
+  padding-bottom: 90px;
 }
 
 .pro-image {
@@ -226,7 +227,7 @@ ul {
 
 .introduction {
   width: 512px;
-  height: 300px;
+  height: auto;
 }
 
 .name {
@@ -243,4 +244,58 @@ ul {
   font-size: 20px;
   text-align: initial;
   padding: 20px 0 5px;
+}
+
+.c-letter-box {
+  width: 800px;
+  height: auto;
+  margin: auto;
+}
+
+.address-bar {
+  width: 800px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  padding-bottom: 90px;
+}
+
+.address {
+  width: 400px;
+  height: 200px;
+}
+
+.mail {
+  padding: 5px 0 20px;
+  color: salmon;
+  text-decoration: none;
+}
+
+.tel {
+  padding-top: 5px;
+  color: yellowgreen;
+  text-decoration: none;
+}
+
+.sns {
+  width: 400px;
+  height: 200px;
+}
+
+.fab {
+  font-size: 50px;
+  padding-right: 20px;
+}
+
+.fab:last-child {
+  font-size: 50px;
+  padding-right: 0;
+}
+
+footer {
+  height: 60px;
+  background-color: #ec715f;
+  color: #fafafa;
+  line-height: 60px;
+  text-align: center;
 }
