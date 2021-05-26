@@ -299,3 +299,37 @@ footer {
   line-height: 60px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 50px;
+  }
+
+  .berger {
+    
+  }
+
+  .fa-bars {
+    font-size: 25px;
+    color: #fff;
+    line-height: 50px;
+    border: 1px solid white;
+  }
+
+  .menu-var {
+    width: 90%;
+    height: 50px;
+  }
+
+  img.header.logo {
+    height: 50px;
+  }
+
+  ul {
+    line-height: 50px;
+  }
+
+  main {
+    overflow: hidden;
+  }
+}
