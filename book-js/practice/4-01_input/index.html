@@ -22,6 +22,7 @@
     <input type="text" name="word">
     <input type="submit" value="検索">
   </form>
+  <p id="output"></p>
 </section>
 </div><!-- /.container -->
 </main>
@@ -33,8 +34,11 @@
 <script>
   'use strict';
 
-  document.getElementById('form').onsubmit = function() {
-    console.log('クリックされました');
+  document.getElementById('form').onsubmit = function(event) {
+    event.preventDefault();
+    const search = document.getElementById('form').word.value;
+    document.getElementById('output').textContent = `「${search}」検索中...`;
+    // console.log('クリックされました');
   };
 </script>
 </body>
